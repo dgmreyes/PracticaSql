@@ -1,0 +1,32 @@
+Encriptar o cifrar los datos es convertirlos en ilegibles para quien tenga acceso a los mismos. A menos, claro está, 
+que disponga de una contraseña para acceder a ellos, una autorización, o bien conozca el lenguaje o código con el que se han encriptado.
+
+*Ley de encriptacion de datos*
+Para llevar a cabo la encriptación de copias de seguridad, primero es recomendable saber qué información merece la pena encriptar,
+y si tenemos o no obligación de encriptarla. Es el caso de los datos sensibles, 
+personales y financieros, que la LOPD (Ley organiga de proteccion de datos personal) lo obliga para evitar cualquier tipo de peligro.
+
+*Herramientas de cifrado*
+Acero Docs: emplea la tecnología IRM para ofrecer una gestión de permisos avanzada. Es compatible con sistemas operativos Windows, Android y iOS.
+AES Crypt: sirve para todo tipo de archivos y se puede usar en Mac OS, Windows, o Linux. Emplea el sistema AES o Advanced Encryption Standard.
+Enigmail: se utiliza principalmente para cifrar las comunicaciones por email.
+HTTPS Everywhere: un programa de cifrado y descifrado que ofrece la posibilidad de enviar la información encriptada a través de un navegador Chrome o Firefox.
+BitLocker: fue desarrollada por Microsoft bajo la plataforma Trusted Platform Module (TPM). Sirve para encriptar archivos de un disco duro, protegiendo los archivos del equipo y también del sistema operativo.
+Whisply: fue desarrollada por BoxCryptor y se emplea para encriptar datos almacenados en la nube. El cifrado se produce antes de subirlos a la nube.
+DiskCryptor: es gratuita. Se utiliza para cifrar USB principalmente o bien discos duros.
+Cryptomator: es gratuita y se emplea para el cifrado de archivos. Es un software de código abierto. Permite crear una carpeta en forma similar a una caja fuerte para poder guardar todo tipo de archivos. Cifrado AES. Disponible para Mac OS, Windows, Linux, Android y iOS.
+PDFelement: es especial para cifrado de documentos PDF.
+
+
+Para cifrar con mysql se usan las funciones  PASSWORD, ENCRYPT, MD5, SHA(SHA1) y SHA2.
+
+Certificados sql
+Los certificados se pueden utilizar para proteger las conexiones,
+en la creación de reflejo de la base de datos, para firmar paquetes y otros objetos,
+o para cifrar datos o conexiones. 
+
+La criptografía de clave pública es un método para mantener 
+la confidencialidad de los mensajes mediante el cual el usuario crea una clave pública y una clave privada.
+La clave privada se mantiene en secreto, mientras que la clave pública se puede distribuir a otras personas.
+
+La clave pública se puede usar para cifrar los datos que solamente la clave privada correspondiente podrá descifrar. 
